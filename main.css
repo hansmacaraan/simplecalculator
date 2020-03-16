@@ -1,0 +1,42 @@
+
+body{
+background:rgb(83, 39, 243);
+}
+*{
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+.wrap{
+width:400px;
+margin:auto;
+height:auto;
+background:rgb(206, 163, 163);
+border: 1.5px solid rgb(255, 0, 149);
+padding:15px;
+}
+.display{
+background-color:orange;
+width:100%;
+padding:10px;
+font-size:22px;
+margin-top:20px;
+border-radius:5px;
+border-color: rgb(238, 165, 165);
+margin-bottom: 10px;
+}
+.btn{
+background-color: orange;
+color: rgb(56, 17, 196);
+width:64px;
+padding:10px;
+font-size:22px;
+border-radius:5px;
+border-color: rgb(245, 16, 16);
+margin: 5px;
+}
+
+display:hover {
+    background-color: red;
+    color: black;
+}

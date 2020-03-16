@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+        <title>simple calculator</title>
+    </head>
+
+
+
+<body>
+    <p><center>Simple Calculator</center></p>
+
+    <form class="wrap" name="Calc" action="">
+  
+
+
+        <input class="display" type="text"   name="Input" size="12">
+   
+                      
+                       
+           
+                        <input class="btn" type="button" name="plus"  value="+"  onclick="Calc.Input.value += '+'" />
+                  
+                        <input  class="btn" type="button" name="times" value="x" onclick="Calc.Input.value += '*'" />
+                        <input  class="btn" type="button" name="div"   value="&frasl;" onclick="Calc.Input.value += '/'" />
+                    
+                        <input  class="btn" type="button" name="pwr"  value="x²"  onclick="Calc.Input.value += '^2'" />
+                        <input  class="btn" type="button" name="sqrt"  value="%"   onclick="Calc.Input.value += '%'" />
+                    
+                        <input class="btn"  type="button" name="DoIt"  value="=" onclick="javascript:calculate();" />
+                        
+                    
+</form>    
+
+ <script src="main.js"></script>
+</body>
+</html>
